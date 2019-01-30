@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/*
+   New Perspectives on HTML and CSS, 7th Edition
+   Tutorial 8
+   Case Problem 1
+
+   Rhetoric in the United States Styles for Media
+   Author: 
+   Date:   
+
+   Filename: ws_media.css
+
+*/
+
+/* VideoPlayer Styles */
+/* Styles within this section will affect the video player displayed on the browser. */
+/* The selector below states that the video element will have listed properties applied to it. The display property states that the video element will be displayed like a block element. The width property states that the element will take up the width of 90% its container. The margin property states that the element will have a 5px margin at the top and bottom and a margin of auto on the left and right.  */
+video {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+}
+
+/* The media query below specifies that selector and properties will only be used when the seen is at a minimum of 521px in size. */
+@media only screen and (min-width: 521px) {
+
+    /* The selector below states that the video element will have a width od 360px, be floated tp the right of its container, and have a margin of 10px.*/
+    video {
+        width: 360px;
+        float: right;
+        margin: 10px;
+    }
+}
+
+/* Track Styles */
+::cue {
+    font-size: 1.3em;
+    font-family: sans-serif;
+    color: rgb(221, 128, 160);
+    background-color: rgba(255, 255, 255, 0.8);
+}
