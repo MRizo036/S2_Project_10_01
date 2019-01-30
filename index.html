@@ -8,8 +8,8 @@
       Case Problem 1
 
       JFK Inaugural Page
-      Author: 
-      Date:   
+      Author: Maria De Jesus Rizo
+      Date:   1.29.19
 
       Filename:   index.html
 
@@ -44,10 +44,14 @@
       <section>
             <article>
                   <h1>John F. Kennedy Inaugural Address</h1>
+                  <!-- The Video element allows for a video to be added onto the page. The controls attribute adds controls for the user to use with the video. -->
                   <video controls poster="ws_jfk_poster.png">
+                        <!-- The source elements provide the video that will be displayed on the webpage with the type property specifying what type of video they are. -->
                         <source src="ws_jfk_speech.mp4" type="video/mp4" />
                         <source src="ws_jfk_speech.webm" type="video/webm" />
+                        <!-- The track property allows for captions to be added to various time stamps of the video. The kind attribute specifies that they are captions and the label attribute specifies that label for the track. -->
                         <track src="ws_captions.vtt" kind="captions" label="Speech Captions">
+                        <!-- The em attribute states that this text is emphasized. -->
                         <p><em> To play this video clip, your browser needs to support HTML5.
                               </em></p>
                   </video>

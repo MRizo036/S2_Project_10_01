@@ -6,8 +6,8 @@
    Case Problem 1
 
    Rhetoric in the United States Styles for Media
-   Author: 
-   Date:   
+   Author: Maria De Jesus Rizo
+   Date:   1.29.19
 
    Filename: ws_media.css
 
@@ -34,6 +34,8 @@ video {
 }
 
 /* Track Styles */
+/* Styles within this section will affect the track captions within the video. */
+/* The selector below states that styles within thsi section will affect the cue captions of the video. The font size property specifies the size of the text while the font family property specifies the font the text wil be. The color property states what color the text will be and the background color property specifies the color of the text background. */
 ::cue {
     font-size: 1.3em;
     font-family: sans-serif;
